@@ -40,8 +40,8 @@
     (make-circles (vector->list vec) radius image)))
 
 ; Quick (and dirty?) implementation of the drop function of SRFI 1 extensions to
-; Scheme, not implemented in TinyScheme.  It drops n elements of the list list
-; and returns the rest.
+; Scheme, not implemented in TinyScheme (the interpreter used by Gimp).  It
+; drops n elements of the list and returns the rest.
 (define (drop lis n)
   (cond ((= n 0) lis)
         ((not (pair? lis)) lis)
