@@ -19,7 +19,7 @@
 
 
 ; This program tries to solve a long-term problem for users of image processing
-; programs.  Sometimes it is necesary to "label" (or "mark") parts of a picture
+; programs.  Sometimes it is necessary to "label" (or "mark") parts of a picture
 ; to be referenced in a document.  It is hard and repetitive to draw a circle, a
 ; number within it, etc., so I developed this script.
 ;
