@@ -15,7 +15,7 @@
 ; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ;
 ; Mark Number Circles -- GIMP script to make sequencial number along a path
-; Copyright (C) 2011 Silas Silva
+; Copyright (C) 2018 Silas <silas -at- nocafe -dot- net>
 
 
 ; This program tries to solve a long-term problem for users of image processing
