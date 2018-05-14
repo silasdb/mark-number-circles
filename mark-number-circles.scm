@@ -83,10 +83,10 @@
     (gimp-image-set-active-layer image layer)
 
     ; Make a circular selection
-    (gimp-ellipse-select image x0 y0 radius radius REPLACE TRUE FALSE 10)
+    (gimp-ellipse-select image x0 y0 radius radius CHANNEL-OP-REPLACE TRUE FALSE 10)
 
     ; Paint selection
-    (gimp-edit-fill layer BG-IMAGE-FILL)
+    (gimp-edit-fill layer BACKGROUND-FILL)
     (gimp-layer-set-name layer text)
 
     ; Creates text
